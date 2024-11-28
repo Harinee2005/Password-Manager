@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #c3caea;
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-logo {
+  width: 150px;
+  height: 50px;
+}
+
+.background-container {
+  background-color: #5763a5;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-pass-manager {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.bg-sub-container {
+  background-color: #454f84;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sub-title {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+
+.input-container {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  width: 99%;
+  margin-bottom: 5px;
+}
+
+.input-icon {
+  height: 15px;
+  width: 15px;
+  margin: 4px;
+}
+
+.input-tag {
+  width: 100%;
+  outline: none;
+  border-left: #b6c3ca 2px solid;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  height: 100%;
+  font-family: 'Roboto';
+  padding-left: 5px;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 60px;
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  align-self: flex-end;
+  margin-right: 1%;
+  cursor: pointer;
+}
+
+.background-password-container {
+  background-color: #5763a5;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 98%;
+}
+
+.password-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pass-title {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.count-pass {
+  border: #f8fafc 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+.input-search-container {
+  width: 35%;
+  padding: 2px;
+  display: flex;
+  background-color: #f8fafc;
+  align-items: center;
+}
+
+.input-search-icon {
+  height: 10px;
+  width: 10px;
+}
+
+.input-search-tag {
+  outline: none;
+  border-left: #b6c3ca 2px solid;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  font-family: 'Roboto';
+  padding-left: 5px;
+  width: 100%;
+  background-color: transparent;
+}
+
+hr {
+  border-color: #9ba9eb;
+}
+
+.show-pass {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.show-pass-text {
+  color: #ffffff;
+}
+
+.passContainer {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-pass-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.no-pass-img {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    padding-top: 60px;
+    padding: 40px;
+  }
+  .app-logo {
+    width: 250px;
+    height: 100px;
+  }
+  .background-container {
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img-pass-manager {
+    width: 30%;
+    order: 2;
+  }
+  .bg-sub-container {
+    width: 50%;
+  }
+  .sub-title {
+    font-size: 30px;
+  }
+  .input-container {
+    margin-bottom: 10px;
+  }
+  .input-icon {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+  }
+  .btn {
+    width: 80px;
+    font-size: 16px;
+    padding: 6px;
+  }
+  .background-password-container {
+    padding: 20px;
+  }
+  .pass-title {
+    font-size: 20px;
+  }
+  .count-pass {
+    font-size: 10px;
+  }
+  .input-search-container {
+    padding: 6px;
+    width: 20%;
+  }
+  .input-search-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .passContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .no-pass-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .no-pass-img {
+    height: 300px;
+    width: 300px;
+  }
+}
